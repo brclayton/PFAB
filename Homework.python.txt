@@ -1,0 +1,31 @@
+#!/usr/bin/python
+
+#part 1
+first = "Brian";
+last = "Clayton";
+age = 44;
+
+print first, last, age;
+
+
+#part 2
+import math;
+sideA = 12.55;
+sideB = 17.85;
+sideC = (sideA * sideA) + (sideB * sideB);
+sideC = math.sqrt(sideC)
+
+print sideC;
+
+
+#part 3
+operand1 = 95;
+operand2 = 64.5;
+
+print operand1 + operand2
+print operand1 - operand2
+print operand1 * operand2
+print operand1 / operand2
+print operand1 % operand2
+
+#it's best to use variables instead of hardcoding so that if the values change, the code does not need to be changed
